@@ -24,8 +24,8 @@ hdiutil will build DMGs with HFS+. This was chosen for maximum compatibility.
 ### How to use
 This script needs the temporary download folder from either Logic or GarageBand, this different for both Logic and GarageBand. They're also a unique individual directory for each user and host. It's extracted from within the script using "getconf DARWIN_USER_CACHE_DIR".
 
-Apple may change the paths in which the applications download to, in this event editing the variables listed below in the script accordingly is easy.
-AppleLogicPath="$(getconf DARWIN_USER_CACHE_DIR)com.apple.MusicApps"
+Apple may change the paths in which the applications download to, in this event editing the variables listed below in the script accordingly is easy.  
+AppleLogicPath="$(getconf DARWIN_USER_CACHE_DIR)com.apple.MusicApps"  
 GarageBandPath="$(getconf DARWIN_USER_CACHE_DIR)com.apple.garageband10/com.apple.MusicApps"
 
 - Open terminal and start this script (make it executable first), keep the window open.
@@ -40,7 +40,7 @@ GarageBandPath="$(getconf DARWIN_USER_CACHE_DIR)com.apple.garageband10/com.apple
 
 	All the minimum installers needed to launch the applcation will be linked to the below directories based on the product selected to be captured for.
 
-	/Users/Shared/Logic/Packages/
+	/Users/Shared/Logic/Packages/  
 	/Users/Shared/GarageBand/Packages/
 
 - You'll be prompted to finalise. Hit y on the keyboard to start the DMG creation process. Any other selection will exit the script and return you to the terminal prompt.
