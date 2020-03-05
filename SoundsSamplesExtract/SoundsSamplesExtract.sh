@@ -11,7 +11,7 @@
 # WAS BASED ON APPSTOREEXTRACT by maxschlapfer / MacAdminHelpers
 # https://github.com/maxschlapfer/MacAdminHelpers/tree/master/AppStoreExtract
 #
-# Edited and extended for internal use at the University of Sydney
+# Edited and extended
 # by Blake Suggett
 # 
 ###################################################################################################################################################
