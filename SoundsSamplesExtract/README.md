@@ -70,7 +70,6 @@ Rinse and repeat for each sound library you want to capture the installers for. 
 ### Things to note / known problems
 * When deploying/installing the sound libraries, some of the installers require the application to be installed else they will fail.
 * Some libraries overlap/are included in other libraries. Installing some but not others will result in some being marked in the GUI as incomplete
-* After installing libraries
 
 ### Deployment using Jamf pro can be acheived using the script linked below
 InstallPKGsfromDMG
