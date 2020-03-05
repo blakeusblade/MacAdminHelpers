@@ -57,9 +57,9 @@ You now have a DMG containing all the installers that are the minimum required t
 
 - Return to GarageBand or Logic admin creds prompt, supply creds to install the packages needed to launch the product.
 
-- Remove all files (if any) from the below paths
-	/Users/Shared/Logic/Packages/
-	/Users/Shared/GarageBand/Packages/
+- Remove all files (if any) from the below paths  
+	/Users/Shared/Logic/Packages/  
+	/Users/Shared/GarageBand/Packages/  
 
 - Using GarageBand or Logic, open Sound Libraries Manager.
 
