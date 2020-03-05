@@ -67,6 +67,8 @@ You now have a DMG containing all the installers that are the minimum required t
 
 Rinse and repeat for each sound library you want to capture the installers for. This might mean all of them in a single package, some in a single package, or each sound library in its own package. The choice is yours.
 
+eg Apple_Logic_Pro_x_10.4.8_Optional_Apple_Sounds_and_Loops
+
 ### Things to note / known problems
 * When deploying/installing the sound libraries, some of the installers require the application to be installed else they will fail.
 * Some libraries overlap/are included in other libraries. Installing some but not others will result in some being marked in the GUI as incomplete
